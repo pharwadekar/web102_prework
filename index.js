@@ -10,6 +10,7 @@ import GAMES_DATA from './games.js';
 // create a list of objects to store the data about the games using JSON.parse
 const GAMES_JSON = JSON.parse(GAMES_DATA)
 
+
 // remove all child elements from a parent element in the DOM
 function deleteChildElements(parent) {
     while (parent.firstChild) {
@@ -24,7 +25,7 @@ function deleteChildElements(parent) {
 
 // grab the element with the id games-container
 const gamesContainer = document.getElementById("games-container");
-var count =0;
+var count = 0;
 // create a function that adds all data from the games array to the page
 function addGamesToPage(games) {
 
